@@ -125,3 +125,5 @@ You can customize the CLI by defining [a RAG configuration file](/examples/rag/c
 Our LLMs are LangChain's [`BaseChatModel`](https://python.langchain.com/api_reference/core/retrievers/langchain_core.retrievers.BaseRetriever.html) base class. If you want to create a custom retriever you can simply make it inherit from this class and use it as described in our examples. 
 
 > :warning: Note that we support [HuggingFace Hub](https://huggingface.co/models) models, so a simpler solution is to push a model to the hub and use the class as defined.
+
+
